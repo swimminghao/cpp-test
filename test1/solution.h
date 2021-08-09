@@ -5,6 +5,12 @@
 #ifndef FIRST_SOLUTION_H
 #define FIRST_SOLUTION_H
 
+#include <string>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
 
 // 静态数组：表示顶点i的颜色
 int color[2010]={0};

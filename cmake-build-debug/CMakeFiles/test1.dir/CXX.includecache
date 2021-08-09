@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/xh/workspaces/clion/Solution.h
+/Users/xh/workspaces/clion/test1/solution.cpp
+iostream
+-
+solution.h
+/Users/xh/workspaces/clion/test1/solution.h
+
+/Users/xh/workspaces/clion/test1/solution.h
 string
 -
 vector
 -
 iostream
 -
-
-/Users/xh/workspaces/clion/main.cpp
-iostream
--
-Solution.h
-/Users/xh/workspaces/clion/Solution.h
 

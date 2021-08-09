@@ -5,6 +5,7 @@ int main() {
     startTime = clock();
     std::cout << "Hello, World!" << std::endl;
     Solution s;
+
     vector<vector<string>> v = s.solveNQueens(13);
     cout<<v.size()<<endl;
     endTime = clock();
