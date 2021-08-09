@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test1
+
+# Build rule for target.
+test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
+
+# fast build rule for target.
+test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
+#=============================================================================
 # Target rules for targets named first
 
 # Build rule for target.
@@ -128,30 +141,6 @@ first: cmake_check_build_system
 first/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
 .PHONY : first/fast
-
-Solution.o: Solution.cpp.o
-.PHONY : Solution.o
-
-# target to build an object file
-Solution.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/Solution.cpp.o
-.PHONY : Solution.cpp.o
-
-Solution.i: Solution.cpp.i
-.PHONY : Solution.i
-
-# target to preprocess a source file
-Solution.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/Solution.cpp.i
-.PHONY : Solution.cpp.i
-
-Solution.s: Solution.cpp.s
-.PHONY : Solution.s
-
-# target to generate assembly for a file
-Solution.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/Solution.cpp.s
-.PHONY : Solution.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -177,6 +166,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test1/solution.o: test1/solution.cpp.o
+.PHONY : test1/solution.o
+
+# target to build an object file
+test1/solution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/test1/solution.cpp.o
+.PHONY : test1/solution.cpp.o
+
+test1/solution.i: test1/solution.cpp.i
+.PHONY : test1/solution.i
+
+# target to preprocess a source file
+test1/solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/test1/solution.cpp.i
+.PHONY : test1/solution.cpp.i
+
+test1/solution.s: test1/solution.cpp.s
+.PHONY : test1/solution.s
+
+# target to generate assembly for a file
+test1/solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/test1/solution.cpp.s
+.PHONY : test1/solution.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... first"
-	@echo "... Solution.o"
-	@echo "... Solution.i"
-	@echo "... Solution.s"
+	@echo "... test1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test1/solution.o"
+	@echo "... test1/solution.i"
+	@echo "... test1/solution.s"
 .PHONY : help
 
 
