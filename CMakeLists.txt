@@ -4,4 +4,4 @@ project(first)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(first main.cpp)
-add_executable(test1 test1/solution.cpp)
+add_executable(leetcode-886 leetcode-886/solution.cpp)
