@@ -1,4 +1,4 @@
-/Users/xh/workspaces/clion/cmake-build-debug/CMakeFiles/test1.dir
-/Users/xh/workspaces/clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xh/workspaces/clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/xh/workspaces/clion/cmake-build-debug/CMakeFiles/first.dir
+/Users/xh/workspaces/clion/first/cmake-build-debug/CMakeFiles/test1.dir
+/Users/xh/workspaces/clion/first/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xh/workspaces/clion/first/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xh/workspaces/clion/first/cmake-build-debug/CMakeFiles/first.dir

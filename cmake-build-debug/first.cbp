@@ -8,130 +8,130 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test1">
-				<Option output="/Users/xh/workspaces/clion/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option output="/Users/xh/workspaces/clion/first/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test1/fast">
-				<Option output="/Users/xh/workspaces/clion/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option output="/Users/xh/workspaces/clion/first/cmake-build-debug/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first">
-				<Option output="/Users/xh/workspaces/clion/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option output="/Users/xh/workspaces/clion/first/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first/fast">
-				<Option output="/Users/xh/workspaces/clion/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xh/workspaces/clion/cmake-build-debug"/>
+				<Option output="/Users/xh/workspaces/clion/first/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/clion/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xh/workspaces/clion/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xh/workspaces/clion/main.cpp">
+		<Unit filename="/Users/xh/workspaces/clion/first/main.cpp">
 			<Option target="first"/>
 		</Unit>
-		<Unit filename="/Users/xh/workspaces/clion/test1/solution.cpp">
+		<Unit filename="/Users/xh/workspaces/clion/first/test1/solution.cpp">
 			<Option target="test1"/>
 		</Unit>
-		<Unit filename="/Users/xh/workspaces/clion/test1/solution.h">
+		<Unit filename="/Users/xh/workspaces/clion/first/test1/solution.h">
 			<Option target="test1"/>
 		</Unit>
-		<Unit filename="/Users/xh/workspaces/clion/CMakeLists.txt">
+		<Unit filename="/Users/xh/workspaces/clion/first/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

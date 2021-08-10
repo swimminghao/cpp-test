@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/xh/workspaces/clion/test1/solution.cpp
+/Users/xh/workspaces/clion/first/test1/solution.cpp
 iostream
 -
 solution.h
-/Users/xh/workspaces/clion/test1/solution.h
+/Users/xh/workspaces/clion/first/test1/solution.h
 
-/Users/xh/workspaces/clion/test1/solution.h
+/Users/xh/workspaces/clion/first/test1/solution.h
 string
 -
 vector
