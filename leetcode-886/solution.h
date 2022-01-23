@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
-
+#include <memory.h>
 using namespace std;
 
 
